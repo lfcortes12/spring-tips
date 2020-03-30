@@ -3,14 +3,13 @@ package com.gbl.springboot.tips;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContextInitializer;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.GenericApplicationContext;
 
 @SpringBootApplication
 public class TipsApplication2 {
 
 	public static void main(final String[] args) {
-		final ConfigurableApplicationContext applicationContext = SpringApplication.run(TipsApplication.class, args);
+		SpringApplication.run(TipsApplication.class, args);
 	}
 
 }

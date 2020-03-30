@@ -1,9 +1,12 @@
 ## Creating Spring Beans
 
-- [XML Based Bean Definition](#a)
-- [Java Based Bean Definition](#b)
+* [XML Based Bean Definition](#a)
+* [Java Based Bean Definition](#b)
+  * [Explicit Bean Definition](#explicit-bean-definition)
+  * [Component Scanning bean definition](#component-scanning-bean-definition)
+  * [Programmatic bean definition](#programmatic-bean-definition)
 
-### XML Based Bean Definition
+## XML Based Bean Definition
 <a name="a"></a>
 
 ~~~
@@ -16,10 +19,10 @@
 ~~~
 	
 
-### Java Based Bean Definition
+## Java Based Bean Definition
 <a name="b"></a>
 
-## Explicit bean definition
+### Explicit Bean Definition
 
 ~~~
 
@@ -35,7 +38,7 @@
 
 ~~~
 
-## Component Scanning bean definition
+### Component Scanning Bean Definition
 
 It requires the use of @ComponentScan annotation
 
